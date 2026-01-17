@@ -1,0 +1,149 @@
+# ====================================
+# IRIS RECOGNITION PROJECT .gitignore
+# ====================================
+
+# ====================
+# DATASET FILES (Too large for GitHub)
+# ====================
+# Exclude the entire dataset folder
+data/CASIA-Iris-Thousand/
+data/casia-iris-thousand/
+data/*.zip
+data/*.rar
+data/*.tar.gz
+
+# Exclude all image files in data folder
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tiff
+data/**/*.tif
+
+# ====================
+# MATLAB FILES
+# ====================
+# MATLAB autosave files
+*.asv
+*.m~
+
+# MATLAB temporary files
+*.mex*
+*.mat
+slprj/
+*.slxc
+
+# MATLAB Code Generation
+codegen/
+
+# MATLAB App Designer
+*.mlapp.bak
+
+# Simulink
+*.slx.autosave
+*.slxc
+
+# MATLAB workspace
+matlab_crash_dump.*
+
+# ====================
+# PROCESSED/GENERATED FILES
+# ====================
+# Exclude processed iris images
+results/processed_images/
+results/normalized_iris/
+results/iris_codes/
+
+# Keep result statistics but exclude large result files
+results/**/*.mat
+results/**/*.jpg
+results/**/*.png
+
+# Exclude model files if large
+models/*.mat
+
+# ====================
+# PYTHON (if you use any Python scripts)
+# ====================
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+.venv/
+
+# ====================
+# SYSTEM FILES
+# ====================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ====================
+# IDE/EDITOR FILES
+# ====================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# LOG FILES
+# ====================
+*.log
+logs/
+*.txt.bak
+
+# ====================
+# DOCUMENTATION BUILD FILES
+# ====================
+docs/_build/
+*.pdf.bak
+
+# ====================
+# BACKUP FILES
+# ====================
+*.backup
+*.bak
+*~
+
+# ====================
+# KEEP THESE FILES (use ! to negate)
+# ====================
+# Keep important documentation
+!README.md
+!LICENSE
+!requirements.txt
+
+# Keep example images (if small)
+!examples/*.jpg
+!examples/*.png
+
+# Keep result summaries (CSV, small text files)
+!results/*.csv
+!results/*.txt
+!results/summary/
+
+# Keep empty directories with .gitkeep
+!**/.gitkeep
