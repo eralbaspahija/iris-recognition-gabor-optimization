@@ -35,13 +35,13 @@ The system runs in 4 sequential phases:
 ## FEATURE EXTRACTION:
 <img width="1554" height="985" alt="feature_extraction" src="https://github.com/user-attachments/assets/5bd0cfa9-102e-4cc8-8cd5-a12730723aad" />
 
-##NORMALIZATION:
+## NORMALIZATION:
 <img width="518" height="361" alt="normalization2_phase" src="https://github.com/user-attachments/assets/73994911-739e-4058-be90-0e7cf1c3a643" />
 
-##IRIS CODE:
+## IRIS CODE:
 <img width="681" height="468" alt="feature_extraction_iris_code" src="https://github.com/user-attachments/assets/f39df503-bd4a-42f5-836b-420f648a5482" />
 
-##TESTING:
+## TESTING:
 <img width="1273" height="205" alt="real_image_result2" src="https://github.com/user-attachments/assets/6413114e-e927-4dd0-b154-662bdaafdadb" />
 
 ## Author
