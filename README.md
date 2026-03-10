@@ -45,7 +45,7 @@ The system runs in 4 sequential phases:
 <img width="1273" height="205" alt="real_image_result2" src="https://github.com/user-attachments/assets/6413114e-e927-4dd0-b154-662bdaafdadb" />
 
 ## Author
-Eralba Spahija - Computer Engineering Student
+Eralba Spahija & Iris Lala - Computer Engineering Students
 
 ## Research Paper
 The full paper describing the methodology, experiments, and results can be found here: [CEN_535_Iris_Recognition.pdf](https://github.com/user-attachments/files/25867550/CEN_535_Iris_Recognition.pdf)
